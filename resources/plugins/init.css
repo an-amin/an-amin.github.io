@@ -1,0 +1,62 @@
+/*
+ * Plugin initializer CSS
+ */
+
+/*swiper*/
+.swiper-container {
+	width: 100%;
+	height: 100%;
+	background: ;
+}
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	padding-top:25px;
+	padding-bottom:50px;
+	
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	text-align:center;
+}
+.swiper-slide img{height:auto;}
+
+.swiper-slide-active{background: transparent;}
+.swiper-slide-prev{background: transparent;}
+.swiper-slide-next{background: transparent;}
+/*swiper*/
+
+
+
+.portfolioFilter
+{
+	margin-bottom:25px;
+}
+.portfolioFilter > a.btn
+{
+	/*font-weight:bold;*/
+}
+.portfolioFilter > a.current
+{
+	background:#343A40!important;
+	color:#FFF;
+}
+.gal-detail.thumb
+{
+	padding-bottom:5px;
+	margin-bottom:25px;
+}
+.gal-detail.thumb img{width:100%;}
+
+

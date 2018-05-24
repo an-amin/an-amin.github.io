@@ -1,0 +1,69 @@
+body
+{
+	font-size:1.15em;
+}
+
+#my-thumb{width:128px;}
+.font-consolas{font-family:'consolas';}
+.nav_fix{height:62px;}
+
+section{padding:50px 0px;}
+
+section#dummy_body{min-height:600px;}
+
+section#about{
+	background: url(../resources/img/bg/rash.png);
+	padding:0px;
+}
+section#about .jumbotron{margin-bottom: 0px; background: transparent;}
+
+section#skills
+{
+	background:url(../resources/img/bg/linearboxX.png);
+	background-size: 7.5%;
+}
+
+section#projects
+{
+	background: url(../resources/img/bg/linearbox.png);
+	background-size: 7.5%;
+}
+
+section#services
+{
+	background: #FFF; /*A9C6CD*/
+	color:#009184;
+	font-weight:600;
+}
+section#services h2{color:#002961;}
+
+section#team
+{
+	background:#FFF;
+	color:#F27919;
+	font-weight:600;
+}
+
+
+section#contact
+{
+	background:#FFF7F3;
+}
+
+
+
+a.btn-social{
+	border-radius: 25px;
+	margin:10px;
+}
+
+
+footer
+{
+	background-color:#343A40;
+	color:rgba(255,255,255,.5);
+	padding-top:25px;
+	padding-bottom:25px;
+}
+footer a{color:rgba(255,255,255,.75);}
+footer a:hover{color:rgba(255,255,255,1);text-decoration:none;}

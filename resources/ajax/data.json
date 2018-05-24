@@ -1,0 +1,147 @@
+{
+	"services" : [
+		{
+			"title" : "",
+			"description" : "",
+			"tags" : "",
+			"img" : ""
+		}
+	],
+	
+	"recentProjects" : [
+		{
+			"title" : "",
+			"description" : "",
+			"img" : ""
+		}
+	],
+	
+	"techSkills":[
+		{
+			"title" : "Codeigniter",
+			"description" : "",
+			"rating" : 4,
+			"img" : "resources/img/tech/codeigniter.png",
+			"tags" : "Framework"
+		},
+		{
+			"title" : "Laravel",
+			"description" : "",
+			"rating" : 2,
+			"img" : "resources/img/tech/laravel.png",
+			"tags" : "Framework"
+		},
+		{
+			"title" : "WordPress",
+			"description" : "",
+			"rating" : 2,
+			"img" : "resources/img/tech/wordpress.png",
+			"tags" : "CMS"
+		},
+		{
+			"title" : "OpenCart",
+			"description" : "",
+			"rating" : 0,
+			"img" : "resources/img/tech/opencart.jpg",
+			"tags" : "E-Commerce"
+		},
+		{
+			"title" : "PHP",
+			"description" : "",
+			"rating" : 0,
+			"img" : "resources/img/tech/php.jpg",
+			"tags" : "Programming-Language"
+		},
+		{
+			"title" : "MariaDB",
+			"description" : "",
+			"rating" : 0,
+			"img" : "resources/img/tech/mariadb.png",
+			"tags" : "Database"
+		},
+		{
+			"title" : "mySQL",
+			"description" : "",
+			"rating" : 0,
+			"img" : "resources/img/tech/mysql.png",
+			"tags" : "Database"
+		},
+		{
+			"title" : "Linux",
+			"description" : "",
+			"rating" : 0,
+			"img" : "resources/img/tech/linux.png",
+			"tags" : "Platform"
+		},
+		{
+			"title" : "Apache HTTP Server",
+			"description" : "",
+			"rating" : 0,
+			"img" : "resources/img/tech/apache-http-srv.png",
+			"tags" : "Platform"
+		},
+		{
+			"title" : "NGINX HTTP Server",
+			"description" : "",
+			"rating" : 0,
+			"img" : "resources/img/tech/nginx.png",
+			"tags" : "Platform"
+		},
+		{
+			"title" : "HTML5",
+			"description" : "",
+			"rating" : 0,
+			"img" : "resources/img/tech/html5.png",
+			"tags" : "Markup-Language"
+		},
+		{
+			"title" : "CSS3",
+			"description" : "",
+			"rating" : 0,
+			"img" : "resources/img/tech/css3.png",
+			"tags" : "Markup-Language"
+		},
+		{
+			"title" : "JavaScript",
+			"description" : "",
+			"rating" : 0,
+			"img" : "resources/img/tech/js.png",
+			"tags" : "Programming-Language"
+		},
+		{
+			"title" : "BootStrap",
+			"description" : "",
+			"rating" : 0,
+			"img" : "resources/img/tech/bootstrap.png",
+			"tags" : "Framework"
+		},
+		{
+			"title" : "jQuery",
+			"description" : "",
+			"rating" : 0,
+			"img" : "resources/img/tech/jquery.jpg",
+			"tags" : "Framework"
+		},
+		{
+			"title" : "jQuery UI",
+			"description" : "",
+			"rating" : 0,
+			"img" : "resources/img/tech/jquery-ui.jpg",
+			"tags" : "Framework"
+		},
+		{
+			"title" : "Git",
+			"description" : "",
+			"rating" : 0,
+			"img" : "resources/img/tech/git-scm.png",
+			"tags" : "Tools"
+		},
+		{
+			"title" : "Composer",
+			"description" : "",
+			"rating" : 0,
+			"img" : "resources/img/tech/composer.jpg",
+			"tags" : "Tools"
+		}
+	]
+}

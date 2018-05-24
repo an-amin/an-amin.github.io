@@ -1,0 +1,5 @@
+.sharp,.shar-corner{border-radius:0px;}
+.btn-round{border-radius:20px; padding:.375rem 1.00rem;}
+.btn-sm.btn-round{border-radius:20px; padding:.375rem 1.00rem;}
+.btn-lg.btn-round{border-radius:25px; padding:.375rem 1.25rem;}
+.img-circle{border-radius:50%;}
