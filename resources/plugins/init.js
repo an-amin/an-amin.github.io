@@ -5,13 +5,16 @@
 /***WhatsHelp.io widget***/
 (function () {
   var options = {
-    facebook: "160990734741710", // Facebook page ID
+    call: "+8801973737034", // Call phone number
+    sms: "+8801973737034", // Sms phone number
+    whatsapp: "+8801973737034", // WhatsApp number
     telegram: "islamaminul", // Telegram bot username
+    facebook: "sysamin", // Facebook page ID: 160990734741710
     email: "hello-amin@yandex.com", // Email
     call_to_action: "", // Call to action
     button_color: "#129BF4", // Color of button
     position: "right", // Position may be 'right' or 'left'
-    order: "email,telegram,facebook", // Order of buttons
+    order: "email,call,sms,whatsapp,facebook,telegram", // Order of buttons
   };
   var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
   var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
