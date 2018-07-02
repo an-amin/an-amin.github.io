@@ -23,13 +23,7 @@
         }
         eye_right();
 
-        /*var myTeamIMG = {};
-        myTeamIMG.obj = document.getElementById('myTeamIMG'); 
-        myTeamIMG.width = myTeamIMG.obj.clientWidth;
-        myTeamIMG.height = myTeamIMG.obj.clientHeight;
-        console.log(myTeamIMG);*/
-        
-        var d=new Date();
+        var d = new Date();
         $('#copyright_date').text(d.getFullYear());
 
 	}); //document.ready
