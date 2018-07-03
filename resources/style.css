@@ -9,6 +9,12 @@ body
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 }
+
+.gal-detail.thumb{
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
 .font-consolas{font-family:'Consolas', sans-serif !important;}
 .font-ubuntu{font-family:'Ubuntu', sans-serif !important;}
 .nav_fix{height:62px;}
