@@ -5,7 +5,7 @@
 (function($) {
 	$(document).ready(function($) {
 
-	    console.log('script-loaded', 'script.js');
+	    console.info('script-loaded:', 'script.js');
 
         $('[data-toggle=tooltip]').tooltip();
         

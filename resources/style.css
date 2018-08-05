@@ -19,7 +19,9 @@ body
 .font-ubuntu{font-family:'Ubuntu', sans-serif !important;}
 .nav_fix{height:62px;}
 
-section{padding:50px 0px;}
+section{padding:75px 0px;}
+
+.ul-h{margin-left:20px;}
 
 section#dummy_body{min-height:600px;}
 
@@ -31,8 +33,8 @@ section#about .jumbotron{margin-bottom: 0px; background: transparent;}
 
 section#skills
 {
-	background:url(../resources/img/bg/linearboxX.png);
-	background-size: 7.5%;
+	/*background:url(../resources/img/bg/linearboxX.png);*/
+	/*background-size: 7.5%;*/
 }
 
 section#projects
