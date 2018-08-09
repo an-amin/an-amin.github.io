@@ -54,6 +54,15 @@
 
 <body>
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1&appId=195896650958388&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 	<header class="row-fluid">
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 			<div class="container">
@@ -105,12 +114,32 @@
 				<img id="my-thumb" class="rounded-circle" src="./resources/img/amin.png" alt="Aminul Islam">
 				<h1 class="display-4 font-consolas">{Hello world}</h1>
 				<p class="lead font-consolas">
-                    I am <i>Aminul Islam</i>, a web developer currently live in Dhaka, Bangladesh.
+                    I am <i>Aminul Islam</i>, a Full-Stack-Web-Developer currently living in Dhaka, Bangladesh.
                 </p>
 				<hr class="my-4">
-				<p class="font-consolas">To know more about me and my work please press the button bellow.</p>
-				<button class="btn btn-outline-dark btn-round" href="#" role="button" data-toggle="modal" data-target="#ResumeModal">
-                    Learn more...
+                <p>
+                    From my childhood I cherished to do something what I'll really love and enjoy. Then I came to know about Information Technology (IT) and found keen interest in it, especially in Programming & Networking. Playing around with these staffs I fell in love of it. Then I decided to take it as my profession. And that's the initial story of my journey...
+                </p>
+                <p>
+                    I am a geek programmer. I love to learn. Learning about new technology, science, history and arts are my favourite hobbies.
+                </p>
+                <p>
+                    I prefer CLI to GUI and too lazy to hold the mouse! I love Linux and enjoy working in Terminal.
+                </p>
+                <p>
+                    <code>#Not_only_a_coder_but_also_a_programmer</code>
+                    <br>
+                    <code>#CleanCoder</code>&nbsp;
+                    <code>#Hungry_To_Learn</code>&nbsp;
+                    <code>#QuickLearner</code>&nbsp;
+                    <code>#ProblemSolver</code>&nbsp;
+                    <code>#Teammate</code>&nbsp;
+                    <code>#SmartWorker</code>&nbsp;
+                    <code>#SelfMotivated</code>&nbsp;
+                </p>
+				
+				<button id="Resume" class="btn btn-outline-dark btn-round" role="button">
+                    <i class="fa fa-file-pdf-o fa-lg"></i> <big>My Resume</big>
                 </button>
 			</div>
 		</div>
@@ -410,6 +439,33 @@
                     </div>
                 </div><!-- single gallery item-->
 
+                <!-- single gallery item-->
+                <div class="col-4 col-md-3 col-lg-2 col-xl-2 Tools">
+                    <div class="gal-detail thumb">
+                        <a href="resources/img/tech/ms-office.png" class="image-popup" title="Microsoft Office">
+                            <img src="resources/img/tech/ms-office.png" class="img-fluid" alt="work-thumbnail">
+                        </a>
+                    </div>
+                </div><!-- single gallery item-->
+
+                <!-- single gallery item-->
+                <div class="col-4 col-md-3 col-lg-2 col-xl-2 Tools">
+                    <div class="gal-detail thumb">
+                        <a href="resources/img/tech/apache-openoffice.jpg" class="image-popup" title="Apache Open Office">
+                            <img src="resources/img/tech/apache-openoffice.jpg" class="img-fluid" alt="work-thumbnail">
+                        </a>
+                    </div>
+                </div><!-- single gallery item-->
+
+                <!-- single gallery item-->
+                <div class="col-4 col-md-3 col-lg-2 col-xl-2 Tools">
+                    <div class="gal-detail thumb">
+                        <a href="resources/img/tech/libre-office.jpg" class="image-popup" title="Libre Office">
+                            <img src="resources/img/tech/libre-office.jpg" class="img-fluid" alt="work-thumbnail">
+                        </a>
+                    </div>
+                </div><!-- single gallery item-->
+
             </div><!-- .portfolioContainer-->
 
 		</div><!-- .container-->
@@ -428,37 +484,31 @@
 	                
 	                    <div class="swiper-slide">
 	                        <div class="row-fluid">
-	                            <img alt="" class="img-responsive" src="resources/img/projects/landing.jpg"/>
+	                            <img alt="Project 1" class="img-responsive" src="resources/img/projects/twaiq.png" data="http://sheypoor.welderking.com"/>
 	                        </div>
 	                    </div>
 	                    
 	                    <div class="swiper-slide">
 	                        <div class="row-fluid">
-	                            <img alt="" class="img-responsive" src="resources/img/projects/index_6.jpg"/>
+	                            <img alt="Project 2" class="img-responsive" src="resources/img/projects/malabodol.png" data="http://malabodol.com"/>
 	                        </div>
 	                    </div>
 	                    
 	                    <div class="swiper-slide">
 	                        <div class="row-fluid">
-	                            <img alt="" class="img-responsive" src="resources/img/projects/index_9.jpg"/>
+	                            <img alt="Project 3" class="img-responsive" src="resources/img/projects/curryhouse.png" data="https://curryhousechichester.com"/>
 	                        </div>
 	                    </div>
 	                    
 	                    <div class="swiper-slide">
 	                        <div class="row-fluid">
-	                            <img alt="" class="img-responsive" src="resources/img/projects/index_21.jpg"/>
+	                            <img alt="Project 4" class="img-responsive" src="resources/img/projects/freeuphub.png" data="https://freeuphub.com"/>
 	                        </div>
 	                    </div>
 	                    
 	                    <div class="swiper-slide">
 	                        <div class="row-fluid">
-	                            <img alt="" class="img-responsive" src="resources/img/projects/index_24.jpg"/>
-	                        </div>
-	                    </div>
-	                    
-	                    <div class="swiper-slide">
-	                        <div class="row-fluid">
-	                            <img alt="" class="img-responsive" src="resources/img/projects/index_25.jpg"/>
+	                            <img alt="Project 5" class="img-responsive" src="resources/img/projects/coachin.png" data="http://coachin.com.bd"/>
 	                        </div>
 	                    </div>
 	                    
@@ -471,7 +521,9 @@
         </div><!--.row-->
         
         <h6 class="text-center">
-            <a href="##" class="">show more&raquo;</a>
+            visit more projects in 
+            <a target="_blank" href="https://github.com/an-amin">GitHub</a> & 
+            <a target="_blank" href="https://gitlab.com/aminulislam">GitLab</a> &raquo;
         </h6>
 
         </div><!--.container-->
@@ -486,7 +538,7 @@
                     <br><br>
 				</div>
 				<div class="col-md-6">
-					<h2 class=""><i class="fa fa-wrench fa-lg"></i> My Services</h2>
+					<h2 class="ul-h"><i class="fa fa-wrench fa-lg"></i> My Services</h2>
 					<ul>
 						<li>UI & UX Design</li>
 						<li>Web Design</li>
@@ -513,7 +565,7 @@
                     <img src="resources/img/gif/team.gif" alt="" width="100%">
                 </div>
                 <div class="col-md-6 order-md-1">
-                    <h2><i class="fa fa-users fa-lg"></i> My Team</h2>
+                    <h2 class="ul-h"><i class="fa fa-users fa-lg"></i> My Team</h2>
                     <ul>
                         <li>UI\UX Designer's Team</li>
                         <li>Web Designer's Team</li>
@@ -528,6 +580,13 @@
         </div>
     </section>
 
+    <section id="blog">
+        <div class="container">
+            <div class="row">
+                
+            </div>
+        </div>
+    </section>
 
     <section id="contact" class="row-fluid">
         <div class="container">
@@ -556,31 +615,6 @@
         </div>
     </section>
 
-<!-- Button trigger modal
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ResumeModal">
-  Resume
-</button> -->
-
-<!-- Modal -->
-<div class="modal fade" id="ResumeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalCenterTitle">Resume: Aminul Islam</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <embed src="resources/files/Resume_Aminul_Islam.pdf" width="100%" height="500px"></embed>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
 
 	<footer class="row-fluid">
 		<div class="container">
@@ -601,7 +635,35 @@
 		</div>
 	</footer>
 
+<!-- Button trigger modal
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ResumeModal">
+  Resume
+</button> -->
+
+<!-- Modal -->
+<div id="CustomModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!--
+        Dynamic Content
+        -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 	<!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
@@ -610,7 +672,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.6/js/swiper.min.js" integrity="sha256-NCAKIW9CtzSpcjpTZ2RbtRfDHgNrQuK/akgMYogPwSw=" crossorigin="anonymous"></script>
     <script src="resources/plugins/init.js"></script>
     <!--<script src="resources/ajax/data.js"></script>-->
-	<script src="resources/script.js"></script>
+    <script src="resources/script.js"></script>
+	<script src="resources/ng-app.js"></script>
     <script type="text/javascript"></script>
 </body>
 </html>
