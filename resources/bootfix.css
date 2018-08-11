@@ -1,3 +1,10 @@
+/*
+ * Script   : bootfix.css (bootstrap fixer)
+ * Project  : Aminul Islam's Personal Portfolio
+ * URL      : https://an-amin.github.io
+ * Author   : Aminul Islam
+ */
+ 
 .sharp,.shar-corner{border-radius:0px;}
 .btn-round{border-radius:20px; padding:.375rem 1.00rem;}
 .btn-sm.btn-round{border-radius:20px; padding:.375rem 1.00rem;}

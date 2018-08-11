@@ -1,6 +1,10 @@
 /*
- * Plugin initializer JS
+ * Script   : init.js (Plugin initializer)
+ * Project  : Aminul Islam's Personal Portfolio
+ * URL      : https://an-amin.github.io
+ * Author   : Aminul Islam
  */
+ 
 
 (function($) {
 	$(document).ready(function($) {
