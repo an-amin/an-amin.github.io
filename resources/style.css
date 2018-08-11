@@ -33,7 +33,7 @@ section{padding:70px 0px;}
 section#dummy_body{min-height:600px;}
 
 section#about{
-	background: url(../resources/img/bg/rash.png);
+	background-image: url(../resources/img/bg/rash.png);
 	padding:0px;
 }
 section#about .jumbotron{margin-bottom: 0px; background: transparent;}
@@ -47,8 +47,7 @@ section#skills
 
 section#projects
 {
-	background: url(../resources/img/bg/linearbox.png);
-	background-size: 7.5%;
+	background-image: url(../resources/img/bg/rash.png);
 }
 
 section#services
@@ -69,7 +68,8 @@ section#team
 
 section#contact
 {
-	background:#FFF7F3;
+	background-color:#FFF7F3;
+	background-image: url(../resources/img/bg/rash.png);
 }
 
 
