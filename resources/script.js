@@ -1,11 +1,43 @@
 /*
- * Author 	: Aminul Islam
- */
+
+
+        .-------.
+      .'         `.
+    .'             `.
+    |.-. .-. .-. .-.|
+    |`-.  |  | | |-'|
+    |`-'  '  `-' '  |
+    '               '
+     `.           .'.''.  .''.
+       `._______.'   __   __
+           | | .----/  \ /  \---.
+           | | |   |    |    |  |____
+           | | |   |`--''`--'| /  |  \_
+         ,----.|   \  O | O  _ |  |  | \
+         | ---'|    '._/ \_.| `|  |  | |
+         \.---'|            |  | `- ,| |
+          `---'|            | :        |
+           | | |            |  '._.--  ;
+           | | |    .      .:      `  /
+           '-' |     '....'  `.______/
+               |                |
+               |                |
+               `----------------'
+                   ||      ||fsr
+                   ||      ||
+            _.---'' '-, ,-' ''---._
+           /      __..' '..__      \
+           '---''`           `''---'
+
+
+*/
+
  
 (function($) {
 	$(document).ready(function($) {
 
-	    console.info('script-loaded:', 'script.js');
+        console.log('%c ✋ STOP!', 'color:red; font-size:5em;');
+	    console.log('%c > don\'t copy, use your own brain...', 'color:blue; font-size:1.5em;');
 
         $('[data-toggle=tooltip]').tooltip();
         
@@ -24,13 +56,19 @@
         eye_right();
 
         $(document).on('click', '.swiper-slide img', function(){
-            var modalTitle = $(this).attr('alt');
+            var projectTitle = $(this).attr('alt');
+            var projectDesc = $(this).attr('data-desc');
+            projectDesc = projectDesc!=undefined?projectDesc:'';
             var imgSrc = $(this).attr('src');
             var projectData = $(this).attr('data');
             var html = `<div class="row">
-                <div class="col-md-6"><img src="${imgSrc}" alt="${modalTitle}" class="img-fluid" width="100%"/></div>
-                <div class="col-md-6">
-                    ${modalTitle}<br>
+                <div class="col-md-12">
+                    <img src="${imgSrc}" alt="${projectTitle}" class="img-fluid img-thumbnail" width="100%"/>
+                </div>
+                <div class="col-md-12 text-center">
+                    <br />
+                    <h3>${projectTitle}</h3>
+                    <p>${projectDesc}</p>
                     <a target="_blank" href="${projectData}">Project Link</a>
                 </div>
             </div>`;
