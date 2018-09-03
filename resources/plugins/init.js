@@ -105,7 +105,7 @@
     whatsapp: "+8801973737034", // WhatsApp number
     telegram: "islamaminul", // Telegram bot username
     facebook: "sysamin", // Facebook page ID: 160990734741710
-    email: "hello-amin@yandex.com", // Email
+    email: "hello-amin@outlook.com", // Email
     call_to_action: "", // Call to action
     button_color: "#129BF4", // Color of button
     position: "right", // Position may be 'right' or 'left'
