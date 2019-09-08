@@ -12,6 +12,9 @@
 	    console.log('%c > don\'t copy, use your own brain...', 'color:blue; font-size:1.5em;');
 
         $('[data-toggle=tooltip]').tooltip();
+
+        $('img').on('dragstart', function(event) { event.preventDefault(); });
+        document.addEventListener('contextmenu', event => event.preventDefault());
         
         function eye_left(){
             setTimeout(function(){
