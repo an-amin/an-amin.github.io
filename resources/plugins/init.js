@@ -100,9 +100,9 @@
 /***WhatsHelp.io widget***/
 (function () {
   var options = {
-    call: "+8801973737034", // Call phone number
-    sms: "+8801973737034", // Sms phone number
-    whatsapp: "+8801973737034", // WhatsApp number
+    call: "+8801776942116", // Call phone number
+    sms: "+8801776942116", // Sms phone number
+    whatsapp: "+8801776942116", // WhatsApp number
     telegram: "islamaminul", // Telegram bot username
     facebook: "sysamin", // Facebook page ID: 160990734741710
     email: "hello-amin@outlook.com", // Email
