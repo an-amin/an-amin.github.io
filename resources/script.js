@@ -13,7 +13,7 @@
 
         $('[data-toggle=tooltip]').tooltip();
 
-        $('img').on('dragstart', function(event) { event.preventDefault(); });
+        $(document).on('dragstart', 'img', function(event) { event.preventDefault(); });
         document.addEventListener('contextmenu', event => event.preventDefault());
         
         function eye_left(){
